@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>User Test System</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+
+<div class="header">
+	<button id="btnAdd">New User</button>
+</div>
+
+
+<div class="leftArea">
+<ul id="userList"></ul>
+</div>
+
+<form id="userForm">
+	
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="userId" name="id" type="text" disabled />
+
+<label>Fore Name:</label>
+<input type="text" id="foreName" name="foreName" required>
+
+<label>Last Name:</label>
+<input type="text" id="lastName" name="lastName"/>
+
+<label>Email:</label>
+<input type="text" id="email" name="email"/>
+
+<label>Created:</label>
+<input type="text" id="created" name="created" disabled="disabled"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+</form>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
